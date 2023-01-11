@@ -1,0 +1,310 @@
+.Polaris-Page--narrowWidth{
+    max-width: 100% !important;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.main_content{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.Polaris-Card{
+    box-shadow: none !important;
+}
+
+.productImage{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.product_info{
+    margin-left: 20px;
+}
+
+.product_info p{
+  font-size: 20px;
+}
+
+.tabs{
+    font-family:arial;
+    margin:0 auto;
+    width:70%;
+    text-align:center;
+    margin-top:15vh;
+  }
+  
+  img{
+    width:300px;
+  }
+  
+  .tab-buttons{
+    margin-bottom:0px;
+  }
+
+  .one_productImage{
+    max-width: 121px;
+    max-height: 121px;
+  }
+
+  .header{
+    padding: 20px;
+    border-bottom: 1px solid rgb(208, 204, 204);
+    border-top: 1px solid rgb(208, 204, 204);
+    box-shadow: 1cm;
+  }
+
+  #fields-holder{
+    padding: 0px 20px;
+    padding-bottom: 60px;
+  }
+
+  .productInfoLabel{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  #fields-holder .row{
+    margin-bottom: 15px;
+  }
+
+  ._2oiCL{
+    border-bottom: 0.1rem solid #dfe3e8;
+  }
+
+  ._2oiCL .row{
+    margin-top: 15px;
+  }
+
+  .tag_section{
+    margin-top: 30px !important;
+  }
+
+  .tagBadge{
+    margin-top: 15px !important;
+  }
+
+  .tagBadge .Polaris-Tag {
+    margin-right: 5px;
+  }
+
+  .tag_part input{
+    height: 37px;
+    width: 90%;
+    display: inline;
+  }
+
+  .tag_part{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .tag_part button{
+    margin-left: 10px;
+    display: inline;
+    border: 1px solid #ced4da;
+  }
+  
+  .action_part{
+    padding: 20px;
+  }
+
+  .poky-btn-primary{
+    color: black !important;
+    background-color: #ffcc0d;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .poky-btn-secondary{
+    color: #212b35 !important;
+    background: linear-gradient(to bottom, #fff, #fafbfc) !important;
+    border: 1px #c4cdd5 solid !important;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .get_url{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+
+  .tab-content h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .tab-content p{
+    font-size: 18px;
+  }
+
+  .button_part{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .import_button{
+    background-color:#ffcc0d;
+    border-color: #ffcc0d;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .footer_buttons{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+  }
+
+  .footer_buttons button{
+    margin: auto;
+  }
+
+  .footer_buttons p{
+    width: 120px;
+  }
+
+  .all_import{
+    background-color: #ffcc0d;
+    color: black;
+    min-width: 200px;
+    border-radius: 3px;
+  }
+
+  .select_all{
+    border: solid 1px rgb(208, 204, 204);
+    border-radius: 3px;
+  }
+
+  .cancel{
+    border: solid 1px rgb(208, 204, 204);
+    border-radius: 3px;
+  }
+
+  .import_button{
+    background-color:#ffcc0d;
+    color: black;
+    min-width: 66px;
+    border-radius: 3px;
+  }
+
+  .footer_buttons button{
+    padding: 10px;
+  }
+
+  .edit_botton{
+    background-color: white;
+    border: solid 1px rgb(208, 204, 204);
+    border-radius: 5px;
+  }
+
+  .button_part button{
+    width: 48%;
+  }
+  
+  button{
+    margin-right:15px;
+    font-size:15px;
+    font-weight: bold;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    cursor:pointer;
+    color:rgba(0,0,0,.4);
+    transition:all ease-in-out .2s;
+    border-bottom:2px solid transparent;
+    
+  }
+  .active{
+    border-bottom:2px solid #ffcc0d;
+    color:black;
+  }
+
+  .modal1 {
+    position: fixed;
+    top: 35%;
+    width: 50%;
+    margin: auto;
+    padding: 0px 10px;
+    left: 50%;
+    z-index: 999;
+    background-color: white;
+    border: 1px solid #888888;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+    box-shadow: 6px black;
+    box-shadow: 4px 4px #888888;
+  }
+
+  .modal_header h2{
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 600;
+  }
+
+  .modal_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .language_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .language_part div{
+    margin-left: 10px;
+  }
+  .modal .form-group{
+    border-radius: 3px;
+    border-color: rgb(208, 204, 204);
+  }
+
+  .modal form{
+    padding: 12px 0px;
+    border-bottom: solid 1px  rgb(208, 204, 204);
+    border-top: solid 1px  rgb(208, 204, 204);
+  }
+
+  fieldset input{
+    width: 100%;
+    border: none;
+    font-size: 14px;
+  }
+
+  fieldset input:focus{
+    border: none;
+  }
+
+  .product_list{
+    padding-left: 0px;
+    list-style: none;
+    max-height: 330px;
+    overflow-y: scroll;
+    margin: 0px;
+  }
+
+  .product_list li{
+    border-bottom: solid 1px  rgb(208, 204, 204);
+  }
+
+  button[disabled] {
+    opacity: 0.5;
+    cursor:default;
+}
